@@ -9,4 +9,5 @@ const cookies = document.querySelector('.cookies');
 // Je soumet un evenement lors du click sur le bouton accepter cookies
 btnSuccess.addEventListener('click', function(){
     console.log('bouton clické')
+    cookies.style.opacity = "0";
 });
